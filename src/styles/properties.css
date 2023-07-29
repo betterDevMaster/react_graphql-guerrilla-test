@@ -1,0 +1,82 @@
+/* styles/properties.css */
+.properties-section {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.properties-header {
+  text-align: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.properties-header h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.properties-header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.property-card {
+  position: relative;
+}
+.property-card img {
+  max-width: 350px;
+}
+.property-card .detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 0 10px;
+}
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.load-more {
+  padding: 10px 20px;
+  background-color: #1e3240;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.filter label {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.filter select {
+  padding: 5px;
+  font-size: 16px;
+}

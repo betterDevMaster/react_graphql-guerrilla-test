@@ -1,0 +1,82 @@
+/* Set the background color for landing section */
+.landing-section {
+  background-color: #afd4e2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  position: relative;
+}
+
+/* Set the color for the logo */
+.logo {
+  font-weight: bold;
+  color: #1e3240;
+}
+
+/* Rest of the styles remain the same */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 20px;
+  width: 1100px;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links li a {
+    color: #1E3240;
+    text-decoration: none;
+}
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 1100px;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 30px;
+  max-width: 60%;
+}
+
+.text-content h1 {
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 108px;
+}
+
+.text-content p {
+  font-size: 18px;
+}
+
+.text-content .buttons {
+  margin-top: 20px;
+}
+
+.text-content .buttons button {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+.text-content .active {
+  background: #1e3240;
+  color: #fff;
+  border-color: #1e3240 !important;
+}
+
+.image-content img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+}
